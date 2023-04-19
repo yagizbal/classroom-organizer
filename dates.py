@@ -35,4 +35,6 @@ def generate_dates(length_of_semester, starting_day, starting_year, starting_wee
             if current_month == 0:
                 current_year += 1
 
-    return dates
+    dates_l = [i for i in range(0, length_of_semester)]
+
+    return dates, dates_l
