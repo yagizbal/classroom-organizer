@@ -1,3 +1,5 @@
+import random
+
 #one_gene = [0,#index of class
 #            2, #index of teacher
 #            3, #index of day
