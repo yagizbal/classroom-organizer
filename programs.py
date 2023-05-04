@@ -10,3 +10,4 @@ class Program:
 
     def get_subjects_for_semester(self, semester):
         return self.subjects.get(semester, [])
+    
